@@ -1,7 +1,5 @@
 package com.practice;
-
 import java.util.Scanner;
-
 public class Factorial {
 
 	public static void main(String[] args) {
@@ -9,11 +7,10 @@ public class Factorial {
 		System.out.println("Enter n value:");
 		int n = sc.nextInt();
 		int fact = 1;
-		for (int i = 1; i <= n; i++) {
+		for(int i = 1; i<= n;i++) {
 			fact = fact * i;
 		}
-		System.out.println("Factorial is:"+ fact);
-
+		System.out.println("Factorial is:"+fact);
 	}
 
 }
