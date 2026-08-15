@@ -4,11 +4,12 @@ public class Movie {
 	String movieName;
 	int releasedYear;
 	int ticketPrice;
+
 	void display() {
-		System.out.println("movieName:"+movieName);
-		System.out.println("releasedYear:"+releasedYear);
-	System.out.println("ticketPrice:"+ticketPrice);
-	System.out.println("-----------------");
+		System.out.println("movieName:" + movieName);
+		System.out.println("releasedYear:" + releasedYear);
+		System.out.println("ticketPrice:" + ticketPrice);
+		System.out.println("-----------------");
 	}
 
 	public static void main(String[] args) {
@@ -17,8 +18,7 @@ public class Movie {
 		m1.releasedYear = 2022;
 		m1.ticketPrice = 250;
 		m1.display();
-		
-		
+
 		Movie m2 = new Movie();
 		m2.movieName = "Peddi";
 		m2.releasedYear = 2026;
