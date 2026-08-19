@@ -1,6 +1,7 @@
 package com.lavanya;
 
 public class Methodcalling {
+	
 	 static void method1() {
 		System.out.println("method1 called");
 		Methodcalling m1 = new Methodcalling();

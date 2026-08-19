@@ -29,15 +29,20 @@ public class Method {
 		System.out.println("method5 called");
 
 	}
-	
-
-	public static void main(String[] args) {
+	static {
 		Method m1 = new Method();
 		m1.method1();
 		m1.method2();
 		m1.method3();
 		m1.method4();
 		m1.method5();
+
+		
+		
+	}
+
+	public static void main(String[] args) {
+
 
 	}
 

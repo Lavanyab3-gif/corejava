@@ -8,7 +8,7 @@ public class Mfc {
 	static int tokenNo = 0;
 	int token;
 
-	Mfc() {
+	 {
 		token = tokenNo;
 		tokenNo++;
 	}
