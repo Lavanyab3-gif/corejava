@@ -17,9 +17,8 @@ public class Args {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		int c = sc.nextInt();
-		int d = sc.nextInt();
-		Args a1 = new Args();
-		a1.display(a, b, c, d);
+		int d = sc.nextInt(); 
+		display(a, b, c, d);
 
 	}
 
