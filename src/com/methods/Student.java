@@ -5,7 +5,7 @@ public class Student {
 	float total_marks;
 	int total_Subs;
 
-	 double calAvg(float total_marks, int total_subs) {
+	double calAvg(float total_marks, int total_subs) {
 		float Avg = total_marks / total_subs;
 		return Avg;
 	}
