@@ -1,4 +1,4 @@
-package com.Constructors;
+package com.lab;
 
 public class Employee {
 	int Id;
