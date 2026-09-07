@@ -31,6 +31,7 @@ public class Constructor1 {
 
 	public static void main(String[] args) {
 		Constructor1 c = new Constructor1();
+		c.info();
 		Constructor1 c1 = new Constructor1(1, "Lava");
 		c1.info();
 		Constructor1 c2 = new Constructor1(2, "Sai", 23);
