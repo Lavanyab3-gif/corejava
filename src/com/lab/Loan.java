@@ -1,5 +1,4 @@
 package com.lab;
-import java.util.Scanner;
 
 public class Loan {
 	String customerName;

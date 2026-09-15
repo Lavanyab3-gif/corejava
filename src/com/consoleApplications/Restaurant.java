@@ -1,4 +1,4 @@
-package com.practice;
+package com.consoleApplications;
 
 import java.util.Scanner;
 

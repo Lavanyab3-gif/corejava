@@ -42,7 +42,7 @@ public class LibraryBook {
 		b1.bookTitle = "Java";
 		b1.authorName = "James Gosling";
 		b1.availableCopies = 10;
-		b1.libraryName = "JRE";
+		libraryName = "JRE";
 		b1.librarianName = "Lavanya";
 		b1.displayBookDetails();
 		b1.displayLibraryDetails();

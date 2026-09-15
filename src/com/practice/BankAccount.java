@@ -61,7 +61,7 @@ class BankAccount {
 }
 
 
-public class BankTest {
+ class BankTest {
 
     public static void main(String[] args) {
 
