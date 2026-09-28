@@ -38,7 +38,7 @@ public class ElectronicsStore {
 
 		do {
 
-			switch (catg) {
+			switch (catg) { 
 
 			case "mbl" -> {
 
@@ -54,7 +54,7 @@ public class ElectronicsStore {
 
 					case "vivo" -> {
 
-						System.out.println("The Price of Vivo phone is 2000/-");
+						System.out.println("The Price of Vivo phone is 20000/-");
 
 						double vPrice = 20000.0;
 
@@ -408,7 +408,7 @@ public class ElectronicsStore {
 
 			}
 			}
-		} while (yn.equalsIgnoreCase("y"));
+		}while (yn.equalsIgnoreCase("y"));
 		
 		System.out.println("Total Price is:" + (mblPrice + lapPrice + camPrice+hmPrice+gmngPrice));
 		

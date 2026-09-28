@@ -6,9 +6,18 @@ public class Welcome {
 	
 
 	public static void main(String[] args) {
-		System.out.println( a>b ? ++a : b++ );
-		System.out.println(a);
-		System.out.println(b);
+//		System.out.println( a>b ? ++a : b++ );
+//		System.out.println(a);
+//		System.out.println(b);
+		if(a==b) {
+			System.out.println("A");
+		}
+		if(a<b) {
+			System.out.println("B");
+		}
+		if(a!=b) {
+			System.out.println("A");
+		}
 		
 	}
 	

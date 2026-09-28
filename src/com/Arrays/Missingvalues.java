@@ -3,12 +3,13 @@ package com.Arrays;
 import java.util.Scanner;
 
 public class Missingvalues {
-	public static void main(String[] args) {
+	public static void main(StringDemo[] args) {
 
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Enter n:");
 		int n = sc.nextInt();
+		sc.close();
 
 		int sum = n * (n + 1) / 2;
 

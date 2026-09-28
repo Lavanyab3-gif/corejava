@@ -2,7 +2,7 @@ package com.Arrays;
 
 public class Repitation {
 
-	public static void main(String[] args) {
+	public static void main(StringDemo[] args) {
 		int[] arr = {1,2,4,6,1,6,8,7,5,8};
 		for (int i = 0;i<arr.length;i++) {
 			for(int j=i+1;j<arr.length;j++) {
