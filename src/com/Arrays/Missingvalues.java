@@ -3,17 +3,16 @@ package com.Arrays;
 import java.util.Scanner;
 
 public class Missingvalues {
-	public static void main(StringDemo[] args) {
+	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter n:");
+		System.out.println("Enter the size of the array:");
 		int n = sc.nextInt();
-		sc.close();
+		
+		int sum = (n+1) * (n + 2) / 2;
 
-		int sum = n * (n + 1) / 2;
-
-		System.out.println("Enter " + n + " numbers:");
+		System.out.println("Enter the elements:");
 
 		for (int i = 0; i < n; i++) {
 			int num = sc.nextInt();
